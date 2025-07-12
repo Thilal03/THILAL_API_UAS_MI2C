@@ -1,0 +1,818 @@
+[2025-07-12 10:20:47] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:20:47] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1126
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(921): Illuminate\Container\Container->notInstantiable()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1126
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(921): Illuminate\\Container\\Container->notInstantiable()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1126)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:20:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:20:47] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1141
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(1050): Illuminate\Container\Container->unresolvablePrimitive()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(981): Illuminate\Container\Container->resolvePrimitive()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->resolveDependencies()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#5 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#6 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(1050): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(981): Illuminate\\Container\\Container->resolvePrimitive()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:21:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:22:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:23:24] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:23:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:24:09] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:24:24] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:24:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:25:33] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:25:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:26:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:27:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:28:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:29:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:29:48] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:30:20] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'perpus.perpustakaan' doesn't exist (Connection: mysql, SQL: select * from `perpustakaan`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'perpus.perpustakaan' doesn't exist (Connection: mysql, SQL: select * from `perpustakaan`) at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php:829)
+[stacktrace]
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(414): Illuminate\\Database\\Connection->run()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2913): Illuminate\\Database\\Connection->select()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2902): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(3456): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():2901}()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2901): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Builder.php(739): Illuminate\\Database\\Query\\Builder->get()
+#7 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Builder.php(723): Illuminate\\Database\\Eloquent\\Builder->getModels()
+#8 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Model.php(675): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\app\\Http\\Controllers\\PerpustakaanController.php(14): Illuminate\\Database\\Eloquent\\Model::all()
+#10 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PerpustakaanController->index()
+#11 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#12 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#13 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#14 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#15 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(391): Illuminate\\Container\\Container->call()
+#16 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(356): Laravel\\Lumen\\Application->callControllerCallable()
+#17 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(331): Laravel\\Lumen\\Application->callLumenController()
+#18 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction()
+#19 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#20 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute()
+#21 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}()
+#22 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#24 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#25 {main}
+
+[previous exception] [object] (PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'perpus.perpustakaan' doesn't exist at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php:423)
+[stacktrace]
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(423): PDO->prepare()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(816): Illuminate\\Database\\Connection->{closure:Illuminate\\Database\\Connection::select():414}()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(414): Illuminate\\Database\\Connection->run()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2913): Illuminate\\Database\\Connection->select()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2902): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(3456): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():2901}()
+#7 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2901): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#8 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Builder.php(739): Illuminate\\Database\\Query\\Builder->get()
+#9 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Builder.php(723): Illuminate\\Database\\Eloquent\\Builder->getModels()
+#10 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Model.php(675): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\app\\Http\\Controllers\\PerpustakaanController.php(14): Illuminate\\Database\\Eloquent\\Model::all()
+#12 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PerpustakaanController->index()
+#13 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#14 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#15 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#16 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#17 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(391): Illuminate\\Container\\Container->call()
+#18 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(356): Laravel\\Lumen\\Application->callControllerCallable()
+#19 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(331): Laravel\\Lumen\\Application->callLumenController()
+#20 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction()
+#21 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#22 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute()
+#23 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}()
+#24 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline()
+#25 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#26 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#27 {main}
+"} 
+[2025-07-12 10:30:23] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:30:47] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1141
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(1050): Illuminate\Container\Container->unresolvablePrimitive()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(981): Illuminate\Container\Container->resolvePrimitive()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->resolveDependencies()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#5 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#6 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(1050): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(981): Illuminate\\Container\\Container->resolvePrimitive()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:30:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:31:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:32:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:32:49] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'perpus.perpus' doesn't exist (Connection: mysql, SQL: select * from `perpus`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'perpus.perpus' doesn't exist (Connection: mysql, SQL: select * from `perpus`) at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php:829)
+[stacktrace]
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(414): Illuminate\\Database\\Connection->run()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2913): Illuminate\\Database\\Connection->select()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2902): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(3456): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():2901}()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2901): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Builder.php(739): Illuminate\\Database\\Query\\Builder->get()
+#7 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Builder.php(723): Illuminate\\Database\\Eloquent\\Builder->getModels()
+#8 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Model.php(675): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\app\\Http\\Controllers\\PerpustakaanController.php(14): Illuminate\\Database\\Eloquent\\Model::all()
+#10 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PerpustakaanController->index()
+#11 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#12 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#13 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#14 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#15 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(391): Illuminate\\Container\\Container->call()
+#16 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(356): Laravel\\Lumen\\Application->callControllerCallable()
+#17 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(331): Laravel\\Lumen\\Application->callLumenController()
+#18 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction()
+#19 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#20 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute()
+#21 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}()
+#22 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#24 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#25 {main}
+
+[previous exception] [object] (PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'perpus.perpus' doesn't exist at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php:423)
+[stacktrace]
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(423): PDO->prepare()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(816): Illuminate\\Database\\Connection->{closure:Illuminate\\Database\\Connection::select():414}()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Connection.php(414): Illuminate\\Database\\Connection->run()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2913): Illuminate\\Database\\Connection->select()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2902): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(3456): Illuminate\\Database\\Query\\Builder->{closure:Illuminate\\Database\\Query\\Builder::get():2901}()
+#7 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Query\\Builder.php(2901): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#8 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Builder.php(739): Illuminate\\Database\\Query\\Builder->get()
+#9 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Builder.php(723): Illuminate\\Database\\Eloquent\\Builder->getModels()
+#10 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\database\\Eloquent\\Model.php(675): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\app\\Http\\Controllers\\PerpustakaanController.php(14): Illuminate\\Database\\Eloquent\\Model::all()
+#12 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PerpustakaanController->index()
+#13 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#14 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#15 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#16 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#17 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(391): Illuminate\\Container\\Container->call()
+#18 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(356): Laravel\\Lumen\\Application->callControllerCallable()
+#19 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(331): Laravel\\Lumen\\Application->callLumenController()
+#20 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction()
+#21 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#22 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute()
+#23 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}()
+#24 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline()
+#25 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#26 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#27 {main}
+"} 
+[2025-07-12 10:33:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:34:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 10:35:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:12:37] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:12:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:12:37] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1126
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(921): Illuminate\Container\Container->notInstantiable()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1126
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(921): Illuminate\\Container\\Container->notInstantiable()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1126)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:12:37] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1141
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(1050): Illuminate\Container\Container->unresolvablePrimitive()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(981): Illuminate\Container\Container->resolvePrimitive()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->resolveDependencies()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#5 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#6 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(1050): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(981): Illuminate\\Container\\Container->resolvePrimitive()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:13:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:14:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:15:33] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:15:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:16:15] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:16:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:16:55] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:17:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:17:53] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:18:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:19:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:21:06] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:21:06] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1126
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(921): Illuminate\Container\Container->notInstantiable()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1126
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(921): Illuminate\\Container\\Container->notInstantiable()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1126)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:21:06] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:21:06] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1141
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(1050): Illuminate\Container\Container->unresolvablePrimitive()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(981): Illuminate\Container\Container->resolvePrimitive()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->resolveDependencies()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#5 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#6 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(1050): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(981): Illuminate\\Container\\Container->resolvePrimitive()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:21:18] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:21:51] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:22:06] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:23:06] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:29:40] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1126
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(921): Illuminate\Container\Container->notInstantiable()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1126
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(921): Illuminate\\Container\\Container->notInstantiable()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1126)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:29:40] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:29:40] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:29:41] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php:1141
+Stack trace:
+#0 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(1050): Illuminate\Container\Container->unresolvablePrimitive()
+#1 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(981): Illuminate\Container\Container->resolvePrimitive()
+#2 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->resolveDependencies()
+#3 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(795): Illuminate\Container\Container->build()
+#4 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\illuminate\container\Container.php(731): Illuminate\Container\Container->resolve()
+#5 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\Application.php(327): Illuminate\Container\Container->make()
+#6 C:\Users\Lenovo\Documents\GitHub\lumen\users-api\zidan_API_UAS_MI2C\vendor\laravel\lumen-framework\src\helpers.php(42): Laravel\Lumen\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141
+Stack trace:
+#0 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(1050): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(981): Illuminate\\Container\\Container->resolvePrimitive()
+#2 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies()
+#3 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(795): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php(731): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\laravel\\lumen-framework\\src\\helpers.php(42): Laravel\\Lumen\\Application->make()
+#7 Command line code(1): app()
+#8 {main}
+  thrown at C:\\Users\\Lenovo\\Documents\\GitHub\\lumen\\users-api\\zidan_API_UAS_MI2C\\vendor\\illuminate\\container\\Container.php:1141)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:30:32] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:31:32] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:32:32] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2025-07-12 11:33:32] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
